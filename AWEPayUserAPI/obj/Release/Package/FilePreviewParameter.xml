@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="sathishinterview" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^G:\\Projects\\Sample\ Projects\\AWEPayUserAPI\\AWEPayUserAPI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^G:\\Projects\\Sample\ Projects\\AWEPayUserAPI\\AWEPayUserAPI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ActivityConnection-Web.config Connection String" description="" value="Server=tcp:sathishinterview.database.windows.net,1433;Initial Catalog=ActivityLog;Persist Security Info=False;User ID=sathishinterview;Password=Sathish@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="">
+    <parameterEntry kind="XmlFile" scope="G:\\Projects\\Sample\ Projects\\AWEPayUserAPI\\AWEPayUserAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ActivityConnection']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="DefaultConnection_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="G:\\Projects\\Sample\ Projects\\AWEPayUserAPI\\AWEPayUserAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
